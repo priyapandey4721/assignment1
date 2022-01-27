@@ -1,0 +1,144 @@
+*{
+    margin: 10px auto;
+}
+main{
+    width: 95%;
+    
+    background-image: url(Images/bg.PNG);
+}
+#head{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 5px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    margin:0px;
+    padding: 0px 0px;
+    background: rgb(32, 32, 32);
+}
+header ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+header li{
+    float: right;
+}
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 12px;
+    font-size: 25px;
+}
+header li a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 20px;
+}
+.LoginForm{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    width: 320px;
+    height: 520px;
+    top: 40%;
+    left: 35%;
+    box-sizing: border-box; 
+    padding: 30px 30px;
+    position: relative;
+}
+.LoginForm input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.LoginForm input[type="text"],[type="password"],[type="email"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.LoginForm input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.LoginForm input[type="submit"]:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.LoginForm input[type="reset"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.LoginForm input[type="reset"]:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.LoginForm a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.LoginForm a:hover{
+    color: black;
+}
+.clr{clear: both;}
+footer{
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.container{
+    margin: auto;
+    background-color:none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li a:hover{
+    font-size: 20px;
+}
